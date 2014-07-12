@@ -1,3 +1,16 @@
-name: PerigrineFalcon-t3
-main: com.tenjava.entries.PerigrineFalcon.t3.TenJava
+name: RandomEvents
+main: io.github.PerigrineFalcon.RandomEvents
 version: '${project.version}'
+
+author: Falcon2_0
+
+commands:
+  meteorshower:
+    description:
+    permission: randomevents.meteorshower
+    usage: /meteorshower <power>
+
+permissions:
+  randomevents.meteorshower:
+    default: op
+    description: Allows player to start a meteor shower.
